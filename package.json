@@ -1,0 +1,48 @@
+{
+  "name": "@hostnextra/cli",
+  "version": "1.0.0",
+  "description": "Official command line interface for the HostnExtra ecosystem.",
+  "license": "MIT",
+  "author": "HostnExtra",
+  "homepage": "https://github.com/hostnextra/cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hostnextra/cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hostnextra/cli/issues"
+  },
+  "type": "module",
+  "bin": {
+    "hostnextra": "./dist/index.js"
+  },
+  "keywords": [
+    "hostnextra",
+    "cli",
+    "ssh",
+    "devops",
+    "sysadmin",
+    "server",
+    "plugin",
+    "terminal"
+  ],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "node --rm -r dist",
+    "dev": "node --watch dist/index.js",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.2",
+    "typescript": "^7.0.2"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
