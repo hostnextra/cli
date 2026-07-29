@@ -10,7 +10,7 @@ export const OFFICIAL_PLUGINS: readonly PluginDefinition[] = [
     {
         id: "ssh-config",
         command: "ssh",
-        package: "@hostnextra/ssh-config",
+        package: "hostnextra-ssh-config",
         executable: "hostnextra-ssh-config",
         description: "SSH configuration manager",
     }
