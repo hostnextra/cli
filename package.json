@@ -1,5 +1,5 @@
 {
-  "name": "@hostnextra/cli",
+  "name": "hostnextra",
   "version": "1.0.0",
   "description": "Official command line interface for the HostnExtra ecosystem.",
   "license": "MIT",
@@ -14,7 +14,8 @@
   },
   "type": "module",
   "bin": {
-    "hostnextra": "./dist/index.js"
+    "hostnextra": "./dist/index.js",
+    "hnx": "./dist/index.js"
   },
   "keywords": [
     "hostnextra",
