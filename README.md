@@ -19,7 +19,7 @@ It provides a single entry point for installing, managing, and running official 
 Install the CLI globally using npm.
 
 ```bash
-npm install -g @hostnextra/cli
+npm install -g hostnextra
 ```
 
 Verify that the CLI is installed.
@@ -142,7 +142,7 @@ For example
 
 | Plugin | Package |
 |---------|---------|
-| SSH Configuration | `@hostnextra/ssh-config` |
+| SSH Configuration | `hostnextra-ssh-config` |
 
 Plugins are distributed as independent npm packages and are executed through the HostnExtra CLI.
 
