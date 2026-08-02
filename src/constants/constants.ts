@@ -21,9 +21,7 @@ Plugin Management:
 
 Plugin Commands:
   ssh                          SSH configuration manager
-  firewall                     Firewall management
-  ssl                          SSL certificate management
-  status                       Server status monitoring
+  monitor                      Performance monitoring and system stats
 
 Examples:
   hostnextra plugin list
@@ -31,6 +29,5 @@ Examples:
   hostnextra plugin remove ssh-config
 
   hostnextra ssh list
-  hostnextra firewall status
-  hostnextra ssl renew
+  hostnextra monitor overview
 `.trim();
