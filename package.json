@@ -1,6 +1,6 @@
 {
   "name": "hostnextra",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Official command line interface for the HostnExtra ecosystem.",
   "license": "MIT",
   "author": "HostnExtra",
