@@ -143,6 +143,7 @@ For example
 | Plugin | Package |
 |---------|---------|
 | SSH Configuration | `hostnextra-ssh-config` |
+| Monitor System Status | `hostnextra-monitor` |
 
 Plugins are distributed as independent npm packages and are executed through the HostnExtra CLI.
 
