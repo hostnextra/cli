@@ -22,6 +22,7 @@ Plugin Management:
 Plugin Commands:
   ssh                          SSH configuration manager
   monitor                      Performance monitoring and system stats
+  tunnel                       SSH tunnel manager
 
 Examples:
   hostnextra plugin list
