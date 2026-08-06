@@ -76,6 +76,15 @@ Official HostnExtra Plugins
 ssh-config
   Description : SSH configuration manager
   Installed   : Yes
+
+monitor
+  Description : Performance monitoring and system stats
+  Installed   : No
+
+tunnel
+  Description : SSH tunnel manager
+  Installed   : No
+
 ```
 
 ### Install a plugin
@@ -144,6 +153,7 @@ For example
 |---------|---------|
 | SSH Configuration | `hostnextra-ssh-config` |
 | Monitor System Status | `hostnextra-monitor` |
+| SSH Tunnel Manager | `hostnextra-tunnel` |
 
 Plugins are distributed as independent npm packages and are executed through the HostnExtra CLI.
 
