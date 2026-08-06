@@ -20,5 +20,12 @@ export const OFFICIAL_PLUGINS: readonly PluginDefinition[] = [
         package: "hostnextra-monitor",
         executable: "hostnextra-monitor",
         description: "Performance monitoring and system stats",
+    },
+    {
+        id: "tunnel",
+        command: "tunnel",
+        package: "hostnextra-tunnel",
+        executable: "hostnextra-tunnel",
+        description: "SSH tunnel manager",
     }
 ] as const;
