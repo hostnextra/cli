@@ -2,7 +2,7 @@ export const CLI_NAME = "hostnextra";
 
 export const CLI_DESCRIPTION = "HostnExtra Command Line Interface";
 
-export const CLI_VERSION = "1.0.7";
+export const CLI_VERSION = "1.0.8";
 
 export const HELP_TEXT = `
 HostnExtra CLI
