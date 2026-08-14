@@ -2,7 +2,7 @@ export const CLI_NAME = "hostnextra";
 
 export const CLI_DESCRIPTION = "HostnExtra Command Line Interface";
 
-export const CLI_VERSION = "1.0.8";
+export const CLI_VERSION = "1.0.9";
 
 export const HELP_TEXT = `
 HostnExtra CLI
@@ -23,7 +23,7 @@ Plugin Commands:
   ssh                          SSH configuration manager
   monitor                      Performance monitoring and system stats
   tunnel                       SSH tunnel manager
-
+  sync                         File synchronization manager
 Examples:
   hostnextra plugin list
   hostnextra plugin add ssh-config

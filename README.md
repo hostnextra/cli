@@ -85,6 +85,10 @@ tunnel
   Description : SSH tunnel manager
   Installed   : No
 
+sync
+  Description : File synchronization manager
+  Installed   : No
+
 ```
 
 ### Install a plugin
@@ -154,6 +158,7 @@ For example
 | SSH Configuration | `hostnextra-ssh-config` |
 | Monitor System Status | `hostnextra-monitor` |
 | SSH Tunnel Manager | `hostnextra-tunnel` |
+| File Synchronization | `hostnextra-sync` |
 
 Plugins are distributed as independent npm packages and are executed through the HostnExtra CLI.
 
