@@ -27,5 +27,13 @@ export const OFFICIAL_PLUGINS: readonly PluginDefinition[] = [
         package: "hostnextra-tunnel",
         executable: "hostnextra-tunnel",
         description: "SSH tunnel manager",
+    },
+    {
+        id: "sync",
+        command: "sync",
+        package: "hostnextra-sync",
+        executable: "hostnextra-sync",
+        description: "File synchronization manager",
     }
+
 ] as const;
